@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="nl-ne">
+
+<head>
+      <meta charset="UTF-8">
+      <title> B.I foodcenter </title>
+      <link rel="stylesheet" type="text/css" href="styles.css"
+<!--(if it IE9)>
+<script>
+  document.createElement("header");
+  document.createElement("main");
+  document.createElement("footer"),
+</script>
+<!(endif)-->
+</head>
+
+<body>
+
+<header class="banner">
+<img src="logo3.png" style="width:210px;height:50px">
+</header>
+<main>
+
+<div class="login-page">
+<div class="form">
+
+	<h1 class="titel">Registreren/inloggen</h1>
+	<p class="ondertitel">Natuurlijk gratis en vrijblijvend<p>
+
+	<form class="login" method="post">
+		<input name="username" type="email" placeholder="Email" autofocus required/><br>
+		<input name="password" type="password" placeholder="Wachtwoord" autofocus required/><br>
+		<button class= "knop1" type="submit" onclick="check(this.form)">Verder</button>
+		<a href="https://www.google.com">Wachtwoord vergeten?</a>
+		
+		<footer>
+		<h1 class="footer-titel">Nog sneller, maar net zo veilig?</h1>
+		<button class="Facebook"><img class="image1" src="Facebook.PNG" width="100%" height="100%" alt="submit" /></button>
+		<button class="Gmail" type="submit"><img class="image2" src="Gmail.PNG" width="100%" height="100%" alt="submit" /></button>
+		<button class="Zalando" type="submit"><img class="image3" src="Zalando.PNG" width="100%" height="100%" alt="submit" /></button>
+	</footer>
+		
+	</form>
+	
+		        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.username.value == "ethem_varol52@hotmail.com" && form.password.value == "wachtwoord") {
+                    window.open('event.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+
+</div>
+</div>
+
+
+</main>
+
+</body>
+</html>
