@@ -24,6 +24,46 @@
 <div class="login-page">
 <div class="form">
 
+
+
+	<form action="home.html" method="post">
+	<center>
+      Username:<input type="text" id="username" placeholder="username"><br />
+      Password: <input type="password" id="password" placeholder="password"><br />
+      <input type="submit" value="log in" onclick="clicked()">
+    </center>
+	</form>
+    <script>
+      function clicked() {
+
+  var user = document.getElementById('username');
+  var pass = document.getElementById('password');
+  
+  var coruser = "testme";
+  var corpass = "1001";
+  
+  if(user.value == coruser) {
+  
+    if(pass.value == corpass) {
+    
+      window.alert("You are logged in as " + user.value);
+      window.open("home.html" , "_self");
+      
+    } else {
+    
+      window.alert("Incorrect  password!");
+      
+    
+    }
+  
+  } else {
+  
+      window.alert("Incorrect username or password!");
+  
+  }
+
+}
+
 	<h1 class="titel">Registreren/inloggen</h1>
 	<p class="ondertitel">Natuurlijk gratis en vrijblijvend<p>
 
