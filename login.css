@@ -1,0 +1,53 @@
+.body{
+	position:fixed;
+	
+	
+	width:100%;
+}
+.first {
+	
+  height: 91px;
+  width: 100%; 
+  left:159px;
+}
+.second{
+	
+	position:fixed;
+	background:#d81e05;
+	height:48px;
+	width: 100%;
+	margin-left:-8px;
+	
+	
+}
+.login{
+	
+	font-size:250%;
+	font-family:Uni Sans WFx,sans-serif;
+	color:#fff;
+	font-weight:700;
+}
+#image1{
+		height:38px;
+		width:207px;
+		margin-top:45px;
+		margin-left:150px;
+		
+}
+.footer{
+	font-size:large;
+	color: red ;
+	position:fixed;
+	bottom : 0;
+	float:right;
+	border:black;
+	font-weight:bold;
+	width:100%;
+	right:25px;
+}
+.footerBody{
+	float:right;
+	
+}
+	
+
