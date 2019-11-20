@@ -76,7 +76,7 @@ body {
 
 .boxbutton {
     text-align: right;
-	height: 140px;
+	height: 126px;
 	width: 100%;
 }
 
@@ -103,7 +103,7 @@ body {
 
 .donbutton {
 	position: absolute;
-	bottom: -112px;
+	bottom: -122px;
 	right: 560px;
 }
 
@@ -147,3 +147,43 @@ body {
 	font-size: 26px;
 }
 
+.social-media {
+	text-align:center;
+	background: #d81e05;;
+	opacity: 1;
+	width: 30%;
+	margin: auto;
+	padding: 20px;
+	margin-top: 100px;
+	
+}
+.fa {
+	padding: 14px;
+	font-size: 25px;
+	height:18px;
+	width: 18px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 6px;
+	
+}
+.fa: hover{
+	opacity: 0.7;
+	
+}
+.fa-facebook {
+	background: white;
+	color: red;
+	
+}
+.fa-twitter{
+	background: white;
+	color: red;
+	
+}
+.fa-instagram {
+	background: white;
+	color: red;
+	
+}
