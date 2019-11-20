@@ -49,5 +49,113 @@
 	float:right;
 	
 }
+.titel {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-titel{
+	color:white;
+	font-size:10px;
+	margin-top:15px;
+}
+
+.ondertitel {
+	color: white;
+    font-size: 10px;
+    text-align: center;
+	padding-bottom:14px;
+}
+.login-page {
+	position:relative;
+	width:350px;
+	margin:auto;
+	padding: 5%;
+}
+.form {
+	position:relative;
+	z-index:1;
+	max-width:350px;
+	margin: 0 auto 100px;
+	padding:45px;
+	text-align:center;
+
+}
+
+.form input{
+	font-family:"Roboto",sans-serif;
+	background:#f2f2f2;
+	width:100%;
+	border:0;
+	border-radius: 2px;
+	margin:0 0 15px;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+.knop1 {
+	background:#eda821;
+	width:100%;
+	border:0;
+	border-radius: 2px;
+	padding:10px;
+	color:white;
+	font-size:13px;
+	cursor:pointer;
+}
+.Facebook{
+	background:url(Facebook.PNG) no-repeat;
+    width: 31%;
+    height: 40px;
+	margin-right:1%;
+    border: none;
+	border-radius: 12px;
+    background: black;
+    padding: 0;
+    cursor: pointer;
+	margin: 10px 0px;
+}
+.Gmail {
+	background:url(Gmail.PNG) no-repeat;
+	width: 31%;
+    height: 40px;
+    border: none;
+	margin-right:1%;
+	border-radius: 12px;
+    background: black;
+    padding: 0;
+    cursor: pointer;
+}
+.Zalando {
+	background:url(Zalando.PNG) no-repeat;
+	width: 31%;
+    height: 40px;
+    border: none;
+	border-radius: 12px;
+    background: black;
+    padding: 0;
+    cursor: pointer;
+}
+.Facebook:hover .image1 {
+  opacity: 0.9;
+}
+
+.Gmail:hover .image2{
+	opacity: 0.9;
+}
+.Zalando:hover .image3{
+	opacity: 0.9;
+}
+
+
+.form a{
+	font-size:10px;
+	color:#969594;
+}
+.form a:hover{
+    color: #eda821;
+}
 	
 
