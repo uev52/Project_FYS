@@ -186,25 +186,27 @@
   content: "";
   position: absolute;
   display: none;
+  
 }
 
 /* laat vinkje zien */
 .container input:checked ~ .checkmark:after {
   display: block;
-    background-color: lightgreen;
+  
 }
 
 /* Style vinkje */
 .container .checkmark:after {
-  left: 9px;
-  top: 5px;
+  left: 7px;
+  top: 0px;
   width: 5px;
   height: 10px;
   border: solid white;
-  border-width: 0 3px 3px 0;
+  border-width: 0 6px 3px 0;
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
+  border-color:lightgreen;
   
 }
 .akkoord_tekst{
