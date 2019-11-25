@@ -28,7 +28,7 @@
 			<input type="checkbox">
 			<span class="checkmark"></span>
 		</label><div class="akkoord_tekst">Ik heb de <a hrf="">algemene voorwaarden</a>gelezen en ga hiermee akkoord</div>
-		<button class= "knop1" type="submit" onclick="check(this.form)">Login</button>
+		<a href="welkomstpagina Corendon.html"><button class= "knop1" type="submit" onclick="check(this.form)">Login</button></a>
 		<a href="https://www.google.com">Ticketnummer vergeten?</a>
 		
 		<footer>
@@ -36,6 +36,18 @@
 	</footer>
 		
 	</form>
+	
+			        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.username.value == "Ethem" && form.password.value == "wachtwoord") {
+                    window.open('welkomstpagina_Corendon.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
 
 
  <div class="footer">
