@@ -23,10 +23,13 @@
 }
 .login{
 	
-	font-size:250%;
+	font-size:18px;
 	font-family:Uni Sans WFx,sans-serif;
 	color:#fff;
 	font-weight:700;
+	padding-bottom:12px;
+	text-align:center;
+	padding-top:12px;
 }
 #image1{
 		height:38px;
@@ -104,6 +107,8 @@
 	font-size:14px;
 }
 .knop1 {
+	float:right;
+	margin-top:15px;
 	background:#eda821;
 	width:50%;
 	border:0;
@@ -117,6 +122,7 @@
 
 
 .form a{
+
 	font-size:10px;
 	color:white;
 }
