@@ -1,2 +1,0 @@
-# Project_FYS
-Ontwerp en realiseer een systeem dat Internet toegang mogelijk maakt voor mobile devices (via WIFI) vanuit een vliegtuig. Voordat de toegang tot het Internet wordt verleend, moet een passagier zich eerst registreren met zijn naam en ticketnummer. Dit wordt gerealiseerd door de passagier te sturen naar een zogenaamde ‘landing page’ van een Captive Portal. Alleen na een succesvolle registratie zal de toegang tot het Internet mogelijk zijn.Vanzelfsprekend moet het systeem goed beveiligd zijn tegen misbruik en kwaadwillenden.
