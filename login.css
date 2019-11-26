@@ -1,0 +1,226 @@
+.body{
+	
+	position:fixed;
+	
+	
+	width:100%;
+}
+.first {
+	
+  height: 91px;
+  width: 100%; 
+  left:159px;
+}
+.second{
+	
+	position:fixed;
+	background:#d81e05;
+	height:48px;
+	width: 100%;
+	margin-left:-8px;
+	
+	
+}
+.login{
+	
+	font-size:18px;
+	font-family:Uni Sans WFx,sans-serif;
+	color:#fff;
+	font-weight:700;
+	padding-bottom:12px;
+	text-align:center;
+	padding-top:12px;
+}
+#image1{
+		height:38px;
+		width:207px;
+		margin-top:45px;
+		margin-left:150px;
+		
+}
+.footer{
+	font-size:large;
+	color: red ;
+	position:fixed;
+	bottom : 0;
+	float:right;
+	border:black;
+	font-weight:bold;
+	width:100%;
+	right:25px;
+
+	
+}
+.footerBody{
+	float:right;
+	
+}
+.titel {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.footer-titel{
+	color:white;
+	font-size:10px;
+	margin-top:15px;
+}
+
+.ondertitel {
+	color: white;
+    font-size: 10px;
+    text-align: center;
+	padding-bottom:14px;
+}
+.login-page {
+	position:relative;
+	width:350px;
+	margin:auto;
+	padding: 5%;
+}
+.form {
+	
+	position:relative;
+	z-index:1;
+	max-width:350px;
+	margin: 40px auto 100px;
+	padding:45px;
+	text-align:center;
+	background-image:linear-gradient(rgba(90,90,90,0.60),rgba(90,90,90,0.40));
+	border-radius:12px;
+
+
+}
+
+.form input{
+
+	font-family:"Roboto",sans-serif;
+	background:#f2f2f2;
+	width:100%;
+	border:0;
+	border-radius: 2px;
+	margin:0 0 15px;
+	padding:10px;
+	box-sizing:border-box;
+	font-size:14px;
+}
+.knop1 {
+	float:right;
+	margin-top:15px;
+	background:#eda821;
+	width:50%;
+	border:0;
+	border-radius: 2px;
+	padding:10px;
+	color:white;
+	font-size:13px;
+	cursor:pointer;
+}
+
+
+
+.form a{
+
+	font-size:10px;
+	color:white;
+}
+.form a:hover{
+    color: #eda821;
+}
+.main {
+	position:fixed;
+	background-image:linear-gradient(rgba(240,240,240,0.50),rgba(240,240,240,0.50)),url(optie8.jpg);
+	margin-left:-8px;
+	background-position:center;
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	height:85%;
+	width:100%;
+	margin-top:48px;
+
+}
+.knop1:hover{
+	background:red;
+	border-radius:12px;
+	width:50%;
+}
+
+/* The container */
+.container {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.container input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color:white;
+}
+
+
+.container:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+
+
+/* maak het vinkje*/
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+  
+}
+
+/* laat vinkje zien */
+.container input:checked ~ .checkmark:after {
+  display: block;
+  
+}
+
+/* Style vinkje */
+.container .checkmark:after {
+  left: 7px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 6px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-color:lightgreen;
+  
+}
+.akkoord_tekst{
+	font-size:10px;
+	margin-left:19px;
+}
+
+.akkoord_tekst a{
+	margin-left:3px;
+	margin-right:3px;
+}
