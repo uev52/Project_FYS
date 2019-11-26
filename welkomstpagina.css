@@ -1,0 +1,223 @@
+body {
+	font-family: Uni Sans WFx,sans-serif;
+}
+
+.banner {
+	width: 100%;
+	height: 91px;
+	background: url(beach.jpg);
+	background-position: 40% 34%;
+	background-size: 1570px, 250px;	
+}
+
+.banner img{
+	max-width: 207px;
+	max-height: 38px;
+	padding: 15 px;
+	margin-left: 159px;
+	margin-top: 38px;
+}
+
+.banner h1{
+	text-align: center;
+	color: white;
+	font-weight: 700;
+    height: 48px;
+	text-transform: uppercase;
+	font-size: 18px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	
+}
+
+.Header {
+	background-color: #d81e05;
+	width: 100%;
+	height: 48px;
+}
+
+.trustbalk {
+	background-color: white;
+	width: 100%;
+	height: 48px;	
+}
+.tekst{
+	margin-top: 5px;
+}
+
+.tekst ul{
+	display: flex;
+    list-style: none;
+    padding: 0;
+	margin-left: 159px;
+}
+
+.trustbalk a{
+	text-decoration: none;
+	padding: 10px;
+	color: #26a514;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.trustbalk a:hover{
+	text-decoration: underline;
+}
+	
+}
+.tekst img{	
+	height: 70%;
+	width:70%;
+}
+
+.main {
+	
+	min-height: 455px;
+
+	min-width: 100%;	
+}
+.boxtekst {
+	background-color: #fff;
+    border: 1px solid #d9d9d9;
+    height: 280px;
+	width: 882px;
+    padding: 20px 10px 20px 25px;
+    margin: auto;
+	position:relative;
+	margin-bottom: 30px;
+}
+
+.cortekst {
+	position: absolute;
+	bottom: -5px;
+	left: -70px;
+}
+.welkomtekst {
+	text-align: center;
+}
+
+.welkomtekst h3 {
+	text-align: center;
+	color: green;
+}
+.boxall{
+    border: 1px solid #fff;
+    height: 100px;
+	width: 882px;
+    padding: 20px 10px 20px 25px;
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+}
+.boxbutton {
+    text-align: right;
+	height: 126px;
+	width: 100%;
+}
+
+.corendonbutton {
+	cursor: pointer;
+	background-color: #26a514;
+	border: none;
+	height: 38px;
+	width: 233px;
+	color: white;
+	position: relative;
+	right: 35%;
+	font-size: 20px;
+	font-weight: bold;
+	border-radius: 6px;
+	font-style: italic;
+	margin-bottom: 30px;
+}
+
+.corendonbutton:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	background-color: #d81e05;
+}
+
+.donbutton {
+	position: absolute;
+	bottom: -105px;
+	right: 220px;
+}
+
+.donbutton img{
+	width: 60%;
+	height: 60%;
+}
+
+.footer {
+	background-color: #d81e05;
+	width: 100%;
+	height: 100px;
+}
+
+.contact {
+	align-items: right-side;
+	display: block;
+	flex-direction: column;
+	height: 100px;
+	justify-content: center;
+	float: right;
+	margin-right: 100px;
+	width: 298px;
+	height: 100px;
+	padding: 10px;
+}
+
+.h5 {
+	color: white;
+    margin-top: 25px;
+    text-transform: uppercase;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.h2 {
+	color: white;
+    font-style: normal;
+    font-weight: 700;
+	font-size: 26px;
+}
+
+.social-media {
+	text-align:center;
+	background: #d81e05;;
+	opacity: 1;
+	width: 30%;
+	margin: auto;
+	padding: 20px;
+	margin-top: 100px;
+	
+}
+.fa {
+	padding: 14px;
+	font-size: 25px;
+	height:18px;
+	width: 18px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 6px;
+	
+}
+.fa: hover{
+	opacity: 0.7;
+	
+}
+.fa-facebook {
+	background: white;
+	color: red;
+	
+}
+.fa-twitter{
+	background: white;
+	color: red;
+	
+}
+.fa-instagram {
+	background: white;
+	color: red;
+	
+}
