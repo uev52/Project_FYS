@@ -39,17 +39,21 @@ body {
 	height: 48px;	
 }
 
+
 .weatherbalk {
+
 	background-color: white;
 	width: auto;
 	height: auto;
 	margin-left: 150px;
 	margin-right: 150px;
+
 	margin-top: 25px;
 	
 }
 
 .timeblock h4{
+
 	color: black;
     margin-top: 25px;
     text-transform: uppercase;
@@ -61,6 +65,7 @@ body {
 }
 
 .timeblock h5{
+
 	margin-left: 110px;
 	width:auto ; 
 	height:auto;
@@ -68,6 +73,7 @@ body {
 }
 
 .timeblock h6{
+
 	color: black;
     margin-top: 0px;
     text-transform: uppercase;
@@ -77,7 +83,9 @@ body {
   font: bold;
 }
 
+
 .timeblock h7{
+
 	margin-left: 110px;
 	width:auto ; 
 	height:auto;
@@ -169,8 +177,7 @@ body {
 .fa-instagram {
 	background: white;
 	color: red;
-	
-}
+
 
 .video{
 	margin-top: 0px;
@@ -204,4 +211,5 @@ body {
 .trustbalk a:hover{
 	text-decoration: underline;
 }
+
 
