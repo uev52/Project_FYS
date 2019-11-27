@@ -137,7 +137,7 @@ body {
 	width: 30%;
 	margin: auto;
 	padding: 20px;
-	margin-top: 100px;
+	margin-top:100px;
 	
 }
 .fa {
@@ -148,7 +148,7 @@ body {
 	text-align: center;
 	text-decoration: none;
 	margin: 5px 2px;
-	border-radius: 6px;
+	border-radius:6px;
 }
 .fa: hover{
 	opacity: 0.7;
