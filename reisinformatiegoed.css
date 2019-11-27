@@ -14,10 +14,10 @@ body {
 
 .banner img{
 	max-width: 207px;
-	max-height: 38px;
+	max-height: 52px;
 	padding: 15 px;
 	margin-left: 159px;
-	margin-top: 38px;
+	margin-top: 25px;
 }
 
 .banner h1{
@@ -59,14 +59,14 @@ body {
     text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-  margin-left: 150px;
+  text-align: center;
   font: bold;
   
 }
 
 .timeblock h5{
 
-	margin-left: 110px;
+	margin-left: 50px;
 	width:auto ; 
 	height:auto;
 	margin-top: 0%;
@@ -79,7 +79,7 @@ body {
     text-transform: uppercase;
 	font-weight: 700;
 	font-size: 14px;
-  margin-left: 150px;
+  text-align: center;
   font: bold;
    
 }
@@ -87,7 +87,7 @@ body {
 
 .timeblock h7{
 
-	margin-left: 110px;
+	margin-left: 50px;
 	width:auto ; 
 	height:auto;
 	margin-top: 0%;
@@ -181,28 +181,36 @@ body {
 	color: red;
 }
 
+.right{
+	background-color: #fff;
+    border: 1px solid #d9d9d9;
+    height: 380px;
+	width: 650px;
+    padding: 20px 10px 20px 25px;
+	position:absolute;
+	left: 43%;
+	top: 365px;
+	margin-bottom: 20px;
+	margin-right: 159px;
+}
+
 .video{
 	margin-top: 0px;
 	position: absolute;
 	height: auto;
 	width: auto;
-	right: 160px;
-	top: 400px;
-	border-style: solid ;
-	border-color:red;
-	border-bottom:150px;
-	border-bottom-color:white;
 	
 }
 .aside{
-	
-	height:450px;
-	width:450px;
-	border-style: solid ;
-	border-color:red;
-	margin-left:90px;
-	margin-bottom:50px;
-	margin-top:30px;
+	background-color: #fff;
+    border: 1px solid #d9d9d9;
+    height: 400px;
+	width: 400px;
+    padding: 20px 10px 20px 25px;
+    margin-left: 159px;
+	margin-top: 50px;
+	position:relative;
+	margin-bottom: 10px;
 }
 
 
