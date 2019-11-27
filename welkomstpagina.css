@@ -12,10 +12,10 @@ body {
 
 .banner img{
 	max-width: 207px;
-	max-height: 38px;
+	max-height: 52px;
 	padding: 15 px;
 	margin-left: 159px;
-	margin-top: 38px;
+	margin-top: 25px;
 }
 
 .banner h1{
@@ -113,6 +113,10 @@ body {
     text-align: right;
 	height: 126px;
 	width: 100%;
+}
+
+.tekstknop a{
+	color: white;
 }
 
 .corendonbutton {
