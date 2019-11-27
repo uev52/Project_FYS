@@ -177,16 +177,18 @@ body {
 .fa-instagram {
 	background: white;
 	color: red;
-
-
-.video{
-	margin-top: 0px;
-	position: absolute;
-	height: auto;
-	width: auto;
-	right: 160px;
-	top: 400px;
 }
+
+
+	.video{
+		margin-top: 0px;
+		position: absolute;
+		height: auto;
+		width: auto;
+		right: 160px;
+		top: 400px;
+	}
+	
 
 
 .tekst{
