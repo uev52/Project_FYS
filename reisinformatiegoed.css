@@ -81,6 +81,7 @@ body {
 	font-size: 14px;
   margin-left: 150px;
   font: bold;
+   
 }
 
 
@@ -90,6 +91,7 @@ body {
 	width:auto ; 
 	height:auto;
 	margin-top: 0%;
+
 	
 }
 
@@ -186,6 +188,21 @@ body {
 	width: auto;
 	right: 160px;
 	top: 400px;
+	border-style: solid ;
+	border-color:red;
+	border-bottom:150px;
+	border-bottom-color:white;
+	
+}
+.aside{
+	
+	height:450px;
+	width:450px;
+	border-style: solid ;
+	border-color:red;
+	margin-left:90px;
+	margin-bottom:50px;
+	margin-top:30px;
 }
 
 
