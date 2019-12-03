@@ -8,7 +8,7 @@ CREATE TABLE passengers (
   country VARCHAR(255) NOT NULL,
   sex VARCHAR(255) NOT NULL,
   date_of_birth VARCHAR(255) NOT NULL,
-  CONSTRAINT pkticketnumber PRIMARY KEY (ticketnumber)
+  CONSTRAINT pkticketnumber PRIMARY KEY (passport_number)
 
 );
 
