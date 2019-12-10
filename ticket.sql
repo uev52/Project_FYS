@@ -5,7 +5,7 @@ USE ticket;
 CREATE TABLE ticket (
   ticketnumber VARCHAR(255) NOT NULL,
   seatnumber VARCHAR(255) NOT NULL,
-  flight_flight_number VARCHAR(255) NOT NULL,
+  flight_number VARCHAR(255) NOT NULL,
   PRIMARY KEY (ticketnumber),
   CONSTRAINT fk_Ticket_flight
     FOREIGN KEY (flight_number)
