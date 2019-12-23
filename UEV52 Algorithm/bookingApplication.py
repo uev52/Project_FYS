@@ -2,8 +2,11 @@ from uevalgorithm import *
 from cryptable import *
 from bookingApplication import *
 import random as r
+import hashlib
 
-def encrypt(ticketnummer,Achternaam):
+
+
+def encrypt(ticketnummer):
 
     passangerDB= open('users.txt', 'r')
     inhoud = passangerDB.read()
@@ -16,11 +19,12 @@ def encrypt(ticketnummer,Achternaam):
     with open('keylist.txt', 'r') as f:
         lines = f.read().splitlines()
 
-    value = ticketnummer + lines[-1]
+    value = int(ticketnummer) + int(lines[-1])
+    value2= str(value)
     passDict=[]
     key= r.randint(0,9)
     def encryptor(saltkey):
-        for index in value:
+        for index in value2:
             passDict.append(str(index) + str(saltkey))
 
         for item in passDict:
@@ -48,13 +52,13 @@ pc= input("Wat is uw postcode: ")
 wp= input("Waar woont u: ")
 tel= input("wat is uw telefoonnummer: ")
 ticketnr=[]
+ID=int(input("wat is uw passagier nummer: "))
 
 for x in range(0,9):
         ticketnr.append(str(r.randint(0,9)))
 ticketnummer = "".join(ticketnr)
-
-
-cryptedpass= hash(encrypt(ticketnummer,an))
+print(ticketnummer)
+cryptedpass= encrypt(ticketnummer)
 transfer = open('database.txt','a')
 transfer.write("voornaam: "+vn+", achternaam: "+an+", geboortedatum: "+gd+", geslacht: "+gs+", adres: "+addr+
                ", postcode: "+pc+", woonplaats: "+wp+", telefoonnummer "+tel+", ticketnummer: "+str(cryptedpass)+"\n")

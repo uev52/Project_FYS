@@ -5,10 +5,13 @@
 
 }
 .first {
-	
+  background-image:linear-gradient(rgba(240,240,240,0.35),rgba(240,240,240,0.35)),url(banner10.jpg);
   height: 91px;
   width: 100%; 
   left:159px;
+  	background-position:center;
+	background-repeat: no-repeat;
+
 }
 .second{
 	
@@ -137,7 +140,7 @@
 }
 .main {
 	position:fixed;
-	background-image:linear-gradient(rgba(240,240,240,0.50),rgba(240,240,240,0.50)),url(optie8.jpg);
+	background-image:linear-gradient(rgba(240,240,240,0.90),rgba(240,240,240,0.90)),url(background3.jpg);
 	margin-left:-8px;
 	background-position:center;
 	background-repeat: no-repeat;
@@ -145,6 +148,7 @@
 	height:85%;
 	width:100%;
 	margin-top:48px;
+	
 	
 
 }

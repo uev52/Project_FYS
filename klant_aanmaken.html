@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+           <title>Corendon</title>
+		   <meta charset="UTF-8">
+		   <link rel="stylesheet" type="text/css" href="style_aanmaak.css"/>		   
+<head/>	
+
+<!-- import van fadein effect van de website: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_animate-top-->  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+<!-- _______________________________________________ einde inport fade in effect _________________________________________________ -->			
+
+<body class="body">
+ <div class="first">
+
+			 <img id="image1" class="image1"  src="https://www.corendon.nl/dist/src/assets/images/corendon-logo.06522258cf1a3cafe99d6be9bdc8d5c4.svg" alt="Corendon.pic">
+ 
+</div>
+<div class="menu2">
+  <ul>
+    <li class="item1"><a class="a" href="personeelsportaal.html">Mijn Corendon</a></li>
+    <li class="item2"><a class="a" href="klantaanmaken.html">Klant aanmaken</a></li>
+    <li class="item3"><a class="a" href="klantbeeld.html">Klantbeeld</a></li>
+    <li class="item4"><a class="a" href="#">Reisinformatie</a></li>
+    <li class="item5"><a class="a" href="#">Vluchten</a></li>
+	<li class="item6"><a class="a" href="#">Databank</a></li>
+ 
+ 
+    <hr  class="ahr"/>
+  </ul>
+</div>
+<div class="main">
+<!-- deze is voor de fade in effect van de webite: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_animate-top-->  
+
+
+  <div class="w3-animate-opacity">
+  <div class="form">
+	
+	<img id="logo_wifi" class="logoWifi" src="1.png" alt="werknemer">
+
+	<h1 class="titel"> Nieuwe passagier aanmaken </h1>
+	<p class="ondertitel">Vul hieronder de pesoonlijke gegevens en contactinformatie in van de nieuwe passagier.<p>
+
+	<form class="login" method="post">
+		<input class="vn" name="username" type="text" placeholder="Voornaam" autofocus required/>
+		<input class="tv" name="password" type="text" placeholder="tussenvoegsel" autofocus required/>
+		<input class="an" name="username" type="text" placeholder="Achternaam" autofocus required/><br>
+		Geboorte datum:<input class="gb" name="password" type="text" placeholder="dd - mm - jjjj" autofocus required/>		
+		Geslacht:<input class="radio1" type="radio" name="gender" value="male" checked> Man
+		<input class="radio2" type="radio" name="gender" value="female"> Vrouw<br>
+		<input class="adres" name="password" type="text" placeholder="adres" autofocus required/>
+		Huisnummer:<input class="hn" name="username" type="text" placeholder="nr." autofocus required/><br>
+		<input class="pc" name="password" type="text" placeholder="postcode" autofocus required/>
+		<input class="wp" name="username" type="text" placeholder="woonplaats" autofocus required/><br>
+		<input class="tel" name="password" type="text" placeholder="telefoonnummer" autofocus required/><br>
+		<input class="mail" name="username" type="email" placeholder="email adres" autofocus required/><br><hr>
+		<h1 class="titel"> Vluchtgegevens </h1>
+		<p class="ondertitel">Vul hieronder de vluchtgegevens in van de nieuwe passagier.<p>
+		<input class="van" name="username" type="text" placeholder="Vertrek luchthaven" autofocus required/>
+		<input class="naar" name="password" type="text" placeholder="Aankomst luchthaven" autofocus required/>
+		vertrek:<input class="datum" name="password" type="text" placeholder="dd - mm - jjjj" autofocus required/>	
+		<input class="tijd" name="password" type="text" placeholder="00:00" autofocus required/>	
+		aankomst:<input class="datuma" name="password" type="text" placeholder="dd - mm - jjjj" autofocus required/>	
+		<input class="tijda" name="password" type="text" placeholder="00:00" autofocus required/><br>	
+		<input class="nummer" name="username" type="text" placeholder="Ticketnummer" autofocus required/>
+		<input class="nummer" name="password" type="text" placeholder="Vluchtnummer" autofocus required/>	
+		<input class="nummer" name="username" type="text" placeholder="Vliegtuig type" autofocus required/>
+	
+
+		
+		<a href="welkomstpagina Corendon.html"><button class= "knop1" type="submit" onclick="check(this.form)">Registreren</button></a>
+		<a href="https://www.google.com">voorbeeld form?</a>
+   </div>
+   </div>
+		
+		<footer>
+
+	</footer>
+		
+	</form>
+	
+			        <script language="javascript">
+            function check(form) { /*function to check userid & password*/
+                /*the following code checkes whether the entered userid and password are matching*/
+                if(form.username.value == "Ethem" && form.password.value == "wachtwoord") {
+                    window.open('personeelsportaal.html')/*opens the target page while Id & password matches*/
+                }
+                else {
+                    alert("Error Password or Username")/*displays error message*/
+                }
+            }
+        </script>
+
+
+ <div class="footer">
+ 	 <div class="footerBody">
+			Copyright &copy; Groep2 </div> 
+		</div>
+	</div>
+
+
+</body>
+</html>
