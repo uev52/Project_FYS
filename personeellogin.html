@@ -4,7 +4,7 @@
 <head>
            <title>Corendon</title>
 		   <meta charset="UTF-8">
-		   <link rel="stylesheet" type="text/css" href="login.css"/>		   
+		   <link rel="stylesheet" type="text/css" href="stylepp.css"/>		   
 <head/>	
 
 <!-- import van fadein effect van de website: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_animate-top-->  
@@ -18,7 +18,7 @@
  </div>
   <div class="second">
    <center>
-	 <div class="login"> LOGIN </div>
+	 <div class="login">Personeelsportaal</div>
    </center>	
   </div>
 <div class="main">
@@ -27,19 +27,16 @@
 
   <div class="w3-animate-opacity">
   <div class="form">
-    <div class="w3-animate-fading">	
-	<img id="logo_wifi" class="logoWifi" src="wifi5.png" alt="wifi_icon">
-	</div>
-	<h1 class="titel">inloggen</h1>
-	<p class="ondertitel">Natuurlijk gratis en vrijblijvend<p>
+	
+	<img id="logo_wifi" class="logoWifi" src="16.png" alt="werknemer">
+
+	<h1 class="titel"> LOGIN </h1>
+	<p class="ondertitel">Log in met uw Corendon mail en nummer<p>
 
 	<form class="login" method="post">
 		<input name="username" type="email" placeholder="Achternaam" autofocus required/><br>
 		<input name="password" type="password" placeholder="Ticketnummer" autofocus required/><br>
-		<label class="container">
-			<input type="checkbox">
-			<span class="checkmark"></span>
-		</label><div class="akkoord_tekst">Ik heb de <a hrf="">algemene voorwaarden</a>gelezen en ga hiermee akkoord</div>
+		
 		<a href="welkomstpagina Corendon.html"><button class= "knop1" type="submit" onclick="check(this.form)">Login</button></a>
 		<a href="https://www.google.com">Ticketnummer vergeten?</a>
    </div>
@@ -55,7 +52,7 @@
             function check(form) { /*function to check userid & password*/
                 /*the following code checkes whether the entered userid and password are matching*/
                 if(form.username.value == "Ethem" && form.password.value == "wachtwoord") {
-                    window.open('welkomstpagina_Corendon.html')/*opens the target page while Id & password matches*/
+                    window.open('personeelsportaal.html')/*opens the target page while Id & password matches*/
                 }
                 else {
                     alert("Error Password or Username")/*displays error message*/
