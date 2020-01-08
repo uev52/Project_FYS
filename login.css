@@ -31,9 +31,9 @@
 	padding-top:12px;
 }
 #image1{
-		height:38px;
-		width:207px;
-		margin-top:45px;
+		max-height:78px;
+		max-width:207px;
+		margin-top:15px;
 		margin-left:150px;
 		
 }
