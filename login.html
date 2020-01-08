@@ -2,10 +2,14 @@
 
 <html>
 <head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap-responsive.css">
+
            <title>Corendon</title>
 		   <meta charset="UTF-8">
 		   <link rel="shortcut icon" href="corendonlogo.png" >
 		   <link rel="stylesheet" type="text/css" href="login.css"/>		   
+		   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head/>	
 
 <!-- import van fadein effect van de website: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_animate-top-->  
@@ -17,35 +21,45 @@
  <div class="first">
 			 <img id="image1" class="image1"  src="logotofix.png" alt="Corendon.pic">
  </div>
+ <nav class="navbar fixed-top navbar-expand-md navbar-light bg-light">
   <div class="second">
    <center>
+   <div class="navbar-brand">
 	 <div class="login"> LOGIN </div>
+	</div>
    </center>	
   </div>
-<div class="main">
-<!-- deze is voor de fade in effect van de webite: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_animate-top-->  
+  </nav>
+<div class="row">
+  <div class="col-md">
 
-
-  <div class="w3-animate-opacity">
-  <div class="form">
-    <div class="w3-animate-fading">	
-	<img id="logo_wifi" class="logoWifi" src="wifi5.png" alt="wifi_icon">
+	<div class="main">
+	<!-- deze is voor de fade in effect van de webite: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_animate-top-->  
+	<div class="w3-animate-opacity">
+	<a href="personeellogin.html"><button class= "wpKnop" type="submit" >werknemers</button></a>
 	</div>
-	<h1 class="titel">inloggen</h1>
-	<p class="ondertitel">Natuurlijk gratis en vrijblijvend<p>
+	<div class="w3-animate-opacity">
+	<div class="form">
+		<div class="w3-animate-fading">	
+		<img id="logo_wifi" class="logoWifi" src="wifi5.png" alt="wifi_icon">
+		</div>
+		<h1 class="titel">inloggen</h1>
+		<p class="ondertitel">Natuurlijk gratis en vrijblijvend<p>
 
-	<form class="login" method="post">
-		<input name="username" type="email" placeholder="Achternaam" autofocus required/><br>
-		<input name="password" type="password" placeholder="Ticketnummer" autofocus required/><br>
-		<label class="container">
-			<input type="checkbox">
-			<span class="checkmark"></span>
-		</label><div class="akkoord_tekst">Ik heb de <a hrf="">algemene voorwaarden</a>gelezen en ga hiermee akkoord</div>
-		<a href="welkomstpagina Corendon.html"><button class= "knop1" type="submit" onclick="check(this.form)">Login</button></a>
-		<a href="https://www.google.com">Ticketnummer vergeten?</a>
-   </div>
-   </div>
-		
+		<form class="login" method="post">
+			<input name="username" type="email" placeholder="Achternaam" autofocus required/><br>
+			<input name="password" type="password" placeholder="Ticketnummer" autofocus required/><br>
+			<label class="container">
+				<input type="checkbox">
+				<span class="checkmark"></span>
+			</label><div class="akkoord_tekst">Ik heb de <a hrf="">algemene voorwaarden</a>gelezen en ga hiermee akkoord</div>
+			<a href="welkomstpagina Corendon.html"><button class= "knop1" type="submit" onclick="check(this.form)">Login</button></a>
+			<a href="https://www.google.com">Ticketnummer vergeten?</a>
+	</div>
+    </div>
+	</div>
+	</div>
+	</div>
 		<footer>
 
 	</footer>

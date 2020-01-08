@@ -1,6 +1,14 @@
 body {
 	font-family: Uni Sans WFx,sans-serif;
 }
+.man img {
+	position:relative;
+	height:20%;
+	width:20%;
+	margin-left:100%;
+	margin-top:-8%;
+
+}
 
 .banner {
 	width: 100%;
@@ -49,7 +57,7 @@ body {
 	display: flex;
     list-style: none;
     padding: 0;
-	margin-left: 159px;
+
 }
 
 .trustbalk a{
@@ -58,6 +66,8 @@ body {
 	color: #26a514;
 	font-size: 12px;
 	font-weight: bold;
+	float:left;
+	
 }
 
 .trustbalk a:hover{
@@ -71,7 +81,7 @@ body {
 }
 
 .main {
-	
+
 	min-height: 455px;
 
 	min-width: 100%;	
@@ -79,40 +89,27 @@ body {
 .boxtekst {
 	background-color: #fff;
     border: 1px solid #d9d9d9;
-    height: 280px;
-	width: 882px;
-    padding: 20px 10px 20px 25px;
-    margin: auto;
+    height: 30%;
+	width: 60%;
+    padding: 20px 10px 20px 25px; 
 	position:relative;
-	margin-bottom: 30px;
+	margin-top:2%;
+	margin-left:18%;
 }
 
 .cortekst {
 	position: absolute;
-	bottom: -5px;
+	bottom: -55px;
 	left: -70px;
 }
 .welkomtekst {
 	text-align: center;
+
 }
 
 .welkomtekst h3 {
 	text-align: center;
 	color: green;
-}
-.boxall{
-    border: 1px solid #fff;
-    height: 100px;
-	width: 882px;
-    padding: 20px 10px 20px 25px;
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-}
-.boxbutton {
-    text-align: right;
-	height: 126px;
-	width: 100%;
 }
 
 .tekstknop a{
@@ -126,13 +123,12 @@ body {
 	height: 38px;
 	width: 233px;
 	color: white;
-	position: relative;
-	right: 35%;
 	font-size: 20px;
 	font-weight: bold;
 	border-radius: 6px;
 	font-style: italic;
-	margin-bottom: 30px;
+	margin-left:10%;
+	margin-top:7%;
 }
 
 .corendonbutton:hover {
@@ -142,19 +138,21 @@ body {
 
 .donbutton {
 	position: absolute;
-	bottom: -105px;
-	right: 220px;
+
+	right: 55%;
 }
 
 .donbutton img{
 	width: 60%;
 	height: 60%;
+
 }
 
 .footer {
 	background-color: #d81e05;
 	width: 100%;
 	height: 100px;
+	margin-top:-2.4%;
 }
 
 .contact {
@@ -169,7 +167,6 @@ body {
 	height: 100px;
 	padding: 10px;
 }
-
 .h5 {
 	color: white;
     margin-top: 25px;

@@ -235,3 +235,20 @@
 	margin-left:3px;
 	margin-right:3px;
 }
+.wpKnop {
+	float:right;
+	background-color:orange;
+	border-radius:3px;
+	border:0;
+	height:40px;
+	width:120px;
+	cursor:pointer;
+	margin-right:3%;
+	color:white;
+	margin-top:1%;
+	
+	
+}
+.wpKnop:hover {
+	background-color:red;
+}
