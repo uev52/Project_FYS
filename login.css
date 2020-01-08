@@ -89,11 +89,12 @@
 	position:relative;
 	z-index:1;
 	max-width:350px;
-	margin: 40px auto 100px;
+	margin: 60px auto 100px;
 	padding:45px;
 	text-align:center;
 	background-image:linear-gradient(rgba(90,90,90,0.60),rgba(90,90,90,0.40));
 	border-radius:12px;
+
        
 }
 
@@ -137,7 +138,7 @@
 }
 .main {
 	position:fixed;
-	background-image:linear-gradient(rgba(240,240,240,0.50),rgba(240,240,240,0.50)),url(optie8.jpg);
+	background-image:linear-gradient(rgba(240,240,240,0.75),rgba(240,240,240,0.75)),url(optie8.jpg);
 	margin-left:-8px;
 	background-position:center;
 	background-repeat: no-repeat;
@@ -230,4 +231,21 @@
 .akkoord_tekst a{
 	margin-left:3px;
 	margin-right:3px;
+}
+.wpKnop {
+	float:right;
+	background-color:orange;
+	border-radius:3px;
+	border:0;
+	height:40px;
+	width:120px;
+	cursor:pointer;
+	margin-right:3%;
+	color:white;
+	margin-top:1%;
+	
+	
+}
+.wpKnop:hover {
+	background-color:red;
 }
